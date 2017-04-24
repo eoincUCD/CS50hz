@@ -1,0 +1,70 @@
+<!--
+
+index.html
+
+Computer Science 50
+Final Project - CS-50hz
+
+Resources used:
+http://www.smartjava.org/content/exploring-html5-web-audio-visualizing-sound
+https://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/
+https://www.youtube.com/watch?v=Rb3AAQ-xDjQ&ebc=ANyPxKqDWDvI3MU-4r2F-Ch44JkGTTJsC4YtaTHbL9Kl34Vgwxbc-LSHbrfCmtPNvYN-h0l5NkpS
+https://github.com/auduno/headtrackr (Headtrackr javascript)
+http://plasticity.szynalski.com/tone-generator.htm
+http://stackoverflow.com/
+http://www.w3schools.com/
+https://github.com/
+Google
+Green Tea
+
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <!-- jquery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+        <!-- headtracker JavaScript https://github.com/auduno/headtrackr -->
+        <script src="js/headtrackr.js"></script>
+        
+        <!-- app's own CSS -->
+        <link href="/css/styles.css" rel="stylesheet"/>
+        
+        <!-- app's own JavaScript -->
+        <script src="/js/scripts.js"></script>
+        
+        <title>CS-50hz</title>
+
+    </head>
+    <body>
+
+        <div>
+            <button id="headbutton">Head Bang</button>
+        </div>
+        
+        <div>
+            <button id="infobutton">Info</button>
+        </div>
+        
+        <div id="info">
+            <p>
+            Computer Science 50 (edX)<br>
+            Final Project: CS-50hz<br>
+            Eoin Carroll - March 2016<br>
+            Input Displayed: Max Logarithmic<br>
+            Frequency Range: 0 to 22khz<br>
+            Your Heads X axis defines Blue<br>
+            Your Heads Y axis defines Green<br>
+            </p>
+        </div>
+        
+        <canvas id="canvas"> </canvas>
+            
+        <script type="text/javascript"> graph(); </script>
+        
+    </body>
+</html>

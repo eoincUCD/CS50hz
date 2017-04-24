@@ -1,0 +1,46 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 8
+ *
+ * Global CSS.
+ */
+
+/* align form to right of pan control */
+
+
+#infobutton
+{
+    /* distance from left edge of viewport */
+    right: 10px;
+    /* distance from top edge of viewport */
+    top: 10px;
+    /* position form "absolutely" where we want it */
+    position: absolute;
+}
+
+
+#info
+{
+    /*hidden at first, javascript turns it on and off */
+    display: none;
+    /* distance from left edge of viewport */
+    right: 10px;
+    /* distance from top edge of viewport */
+    top: 20px;
+    /* position form "absolutely" where we want it */
+    position: absolute;
+    text-align: right;
+}
+
+
+#headbutton
+{
+    /* distance from left edge of viewport */
+    left: 10px;
+    /* distance from top edge of viewport */
+    top: 10px;
+    /* position form "absolutely" where we want it */
+    position: absolute;
+}
